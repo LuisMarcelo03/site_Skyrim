@@ -1,4 +1,15 @@
 html{
-    
 }
+
+.titulo2{
+    border: dashed black;
+    font-family: sans-serif;
+    text-align: center;
+    padding:10px;
+    margin-right: 20%;
+    margin-left: 20%;
+}
+
+
+
 

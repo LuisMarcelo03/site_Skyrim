@@ -15,7 +15,6 @@ html{
 }
  
 .header{
-    
 }
 
 .Sumário ul{
@@ -25,7 +24,7 @@ html{
 
 .Sumário li{
     display: inline;
-    padding: 20px;
+    padding: 13px;
     cursor: pointer;
     font-family:sans-serif;
 }
@@ -34,34 +33,95 @@ html{
     font-family: sans-serif;
     position: absolute;
     right: 90px;
-    bottom: 435px;
+    bottom: 430px;
 }
 
 .menu{
     border: solid black;
+    font-family: sans-serif;
 }
 
 .armas{
     border: solid black;
+    font-family: sans-serif;
+    width: 25px;
+    border-radius: 7px;
+    background-color:rgb(226, 154, 19);
+    text-align: center;
+    user-select: none;
+    cursor: pointer;
+    transition: background 1s;
+    
+}
+.armas:hover{
+    background-color:rgb(255, 166, 0);
+    box-shadow: 2px 2px 2px black;
 }
 
 .bestiario{
     border: solid black;
+    font-family: sans-serif;
+    width: 25px;
+    border-radius: 7px;
+    background-color:rgb(226, 154, 19);
+    text-align: center;
+    user-select: none;
+    cursor: pointer;
+    transition: background 1s;
+}
+.bestiario:hover{
+    background-color:rgb(255, 166, 0);
+    box-shadow: 2px 2px 2px black;
 }
 
 .magia{
     border: solid black;
+    font-family: sans-serif;
+    width: 25px;
+    border-radius: 7px;
+    background-color:rgb(226, 154, 19);
+    text-align: center;
+    user-select: none;
+    cursor: pointer;
+    transition: background 1s;
+}
+.magia:hover{
+    background-color:rgb(255, 166, 0);
+    box-shadow: 2px 2px 2px black;
 }
      
 .lores{
     border: solid black;
+    font-family: sans-serif;
+    width: 25px;
+    border-radius: 7px;
+    background-color:rgb(226, 154, 19);
+    text-align: center;
+    user-select: none;
+    cursor: pointer;
+    transition: background 1s;
+}
+.lores:hover{
+    background-color:rgb(255, 166, 0);
+    box-shadow: 2px 2px 2px black;
+
 }
 
 #Introdução{
     position: absolute;
     bottom: 250px;
-
-    
 }
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
 
 
