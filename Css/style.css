@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap');
 html{
-    background-image: url(./fundo.site.jfif);
-    background-size:cover
+    background-image: url(../imagens/fundo.site.jfif);
+    background-size:cover;
 }
 
 .titulo{
@@ -17,11 +17,13 @@ html{
 #menu{
     list-style-type: none;
     padding:0px;
-    background-image: url(./th.jfif);
+    background-image: url(../imagens/th.jfif);
     text-align: center;
     margin-right: 30%;
     margin-left: 30%;
     position: relative;
+    background-size:cover;
+    
 }
 
 #menu li{
@@ -30,9 +32,15 @@ html{
 }
 
 #Introdução{
-    position: absolute;
     bottom: 250px;
     color:white;
+    
+}
+
+#Resumo{
+    color:white;
+    position:fixed;
+    margin-right: 60%;
 }
 
 a{
@@ -47,6 +55,8 @@ a:hover{
     background-color: rgb(24, 139, 233);
 
 }
+
+    
 
 
 
